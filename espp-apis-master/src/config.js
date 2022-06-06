@@ -21,7 +21,7 @@ export const NOTIFICATION_MAILER = {
   },
 };
 
-export const APRAISER_EMAIL = process.env.MAILER__APRAISER_EMAIL.split(',');
+// export const APRAISER_EMAIL = process.env.MAILER__APRAISER_EMAIL.split(',');
 // PATH
 const PATH_ROOT = path.resolve(__dirname, '../');
 export const IMAGE_ERROR_PATH = `${PATH_ROOT}/upload/error_image.png`;
