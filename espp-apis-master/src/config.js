@@ -7,7 +7,7 @@ if (process.env.ENVIRONMENT === 'dev') {
 
 export const PORT = process.env.PORT || 3000;
 
-export const DB_CONFIG = process.env.MONGODB__CONNECTION_STRING;
+export const DB_CONFIG = "mongodb://user:passwww3@0.0.0.0:27017/dbtest?authSource=admin&readPreference=primary&ssl=false";
 
 export const NOTIFICATION_MAILER = {
   host: process.env.MAILER__HOST,
